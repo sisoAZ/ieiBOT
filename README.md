@@ -9,7 +9,7 @@ Setup
 <br>
 Clone this repository
 <br>
-Insert your bot token to iei_bot_discord.py
+Insert your discord bot token to iei_bot_discord.py
 <br>
 pip install -r requirements.txt
 <br>
