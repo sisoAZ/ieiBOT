@@ -3,6 +3,8 @@ import requests
 import os
 from merge_iei import merge_iei
 
+DISCORD_BOT_TOKEN = ""
+
 client = discord.Client()
 
 @client.event
@@ -39,4 +41,4 @@ def sort_args(text) -> list:
     result = []
     return result
 
-client.run("")
+client.run(DISCORD_BOT_TOKEN)
